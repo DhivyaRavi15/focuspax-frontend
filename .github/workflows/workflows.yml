@@ -32,4 +32,5 @@ jobs:
 
     - name: Deploy
       if: success()
-      run: aws s3 sync ./dist/focuspax-frontend s3://test-focuspax
+      run: ls ./dist
+  #    run: aws s3 sync ./dist/focuspax-frontend s3://test-focuspax
